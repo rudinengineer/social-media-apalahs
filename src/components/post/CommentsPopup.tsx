@@ -29,6 +29,7 @@ export default function CommentsPopup({postId, setShowComment}: Props) {
       if (!ref.current?.contains(event.target)) {
         setShowComment(null)
         setReplyId(null)
+          setPlaceholder('Tulis komentar')
       }
     }
 
