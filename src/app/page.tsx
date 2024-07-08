@@ -65,7 +65,7 @@ export default function Home() {
                     </div>
                   ) : (
                     <div className="flex-center p-4 bg-light dark:bg-dark rounded-lg">
-                      <h1 className="text-center font-semibold">Something wen't wrong.</h1>
+                      <h1 className="text-center font-semibold">Something wen&apos;t wrong.</h1>
                     </div>
                   )
                 }
